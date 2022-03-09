@@ -27,7 +27,7 @@ const CustomCard = (props) => {
         subheader={cardData.subtitle}
       />
       <a href={cardData.websiteUrl} target="_blank" rel="noopener noreferrer">
-        <CardMedia height="194">
+        <CardMedia className={styles.cardMedia}>
           <Image src={cardData.image} alt={cardData.name} />
         </CardMedia>
       </a>

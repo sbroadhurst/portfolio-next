@@ -89,6 +89,9 @@ const SkillsTab = () => {
         <DeviIcon className="devicon-storybook-plain">
           <Typography>&ensp;Storybook</Typography>
         </DeviIcon>
+        <DeviIcon className="devicon-nextjs-original">
+          <Typography>&ensp;NextJs</Typography>
+        </DeviIcon>
       </CardRow>
     </div>
   )

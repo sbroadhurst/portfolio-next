@@ -23,3 +23,8 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.cardMedia {
+  height: 165px;
+  overflow: hidden;
+}
