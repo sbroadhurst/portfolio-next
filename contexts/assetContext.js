@@ -9,6 +9,7 @@ import Projects from '../public/assets/projects.jpeg'
 import Games from '../public/assets/games.jpeg'
 import About from '../public/assets/about.jpeg'
 import Contact from '../public/assets/contact.jpeg'
+import Netflix from '../public/assets/netflix.png'
 
 export const AssetContext = createContext({})
 
@@ -44,6 +45,15 @@ const AssetProvider = ({ children }) => {
       },
     ],
     projects: [
+      {
+        name: 'Simple Netflix',
+        subtitle: 'View a Simple Netflix Homescreen',
+        image: Netflix,
+        websiteUrl: 'https://netflix-v1-80u0ejk64-sbroadhurst.vercel.app/',
+        gitHubUrl: 'https://github.com/sbroadhurst/netflix-v1',
+        description:
+          'See my website that displays a mock Netflix home screen and shows information about movies and TV shows. You can also view the trailers.',
+      },
       {
         name: 'Movie Database Viewer',
         subtitle: 'View Upcoming Movies & TV',
