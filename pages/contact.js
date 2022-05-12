@@ -72,7 +72,7 @@ const Contact = () => {
               &emsp;*
             </IconTextBox>
             <IconTextBox>
-              <IconButton href="tel:4074163579">
+              <IconButton href="tel:6892478321">
                 <Phone />
               </IconButton>
               <TextField
@@ -83,7 +83,7 @@ const Contact = () => {
                 InputProps={{
                   readOnly: true,
                 }}
-                defaultValue={'(407) 416 - 3579'}
+                defaultValue={'(689) 247 - 8321'}
               />
             </IconTextBox>
             <sub style={{ fontSize: 10, marginTop: 40 }}>* Preferred Contact Methods</sub>

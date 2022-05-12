@@ -16,7 +16,7 @@ const openEmail = () => {
 }
 
 const openPhone = () => {
-  window.open('tel:4074163579')
+  window.open('tel:6892478321')
 }
 
 export const FooterComponent = () => {
