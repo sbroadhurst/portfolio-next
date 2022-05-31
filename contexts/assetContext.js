@@ -10,6 +10,7 @@ import Games from '../public/assets/games.jpeg'
 import About from '../public/assets/about.jpeg'
 import Contact from '../public/assets/contact.jpeg'
 import Netflix from '../public/assets/netflix.png'
+import RedditClone from '../public/assets/redditClone.png'
 
 export const AssetContext = createContext({})
 
@@ -45,6 +46,15 @@ const AssetProvider = ({ children }) => {
       },
     ],
     projects: [
+      {
+        name: 'Reddit Clone',
+        subtitle: 'View a Simple Reddit Clone',
+        image: RedditClone,
+        websiteUrl: 'https://reddit-tawny-theta.vercel.app/',
+        gitHubUrl: 'https://github.com/sbroadhurst/reddit',
+        description:
+          'See my Reddit clone which a user can login through their reddit account, make posts, and vote. Uses React, Nextjs, Graphql, Apollo, Supabase, Postgress and Typescript with Tailwind.',
+      },
       {
         name: 'Simple Netflix',
         subtitle: 'View a Simple Netflix Homescreen',
