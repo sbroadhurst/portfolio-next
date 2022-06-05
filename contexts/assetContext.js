@@ -11,6 +11,7 @@ import About from '../public/assets/about.jpeg'
 import Contact from '../public/assets/contact.jpeg'
 import Netflix from '../public/assets/netflix.png'
 import RedditClone from '../public/assets/redditClone.png'
+import Dashboard from '../public/assets/dashboard.png'
 
 export const AssetContext = createContext({})
 
@@ -46,6 +47,15 @@ const AssetProvider = ({ children }) => {
       },
     ],
     projects: [
+      {
+        name: 'Dashboard',
+        subtitle: 'View a Dashboard with Common Apps',
+        image: Dashboard,
+        websiteUrl: 'https://dashboard-alpha-eight.vercel.app/',
+        gitHubUrl: 'https://github.com/sbroadhurst/dashboard',
+        description:
+          'See a common Dashboard like page with common applications and pages. Made in React with Nextjs using Tailwind, context provider, and Syncfusion components.',
+      },
       {
         name: 'Reddit Clone',
         subtitle: 'View a Simple Reddit Clone',

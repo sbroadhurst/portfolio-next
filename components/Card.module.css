@@ -3,7 +3,7 @@
 }
 
 .description {
-  max-height: 100px;
+  height: 100px;
   overflow: scroll;
   cursor: all-scroll;
 }
