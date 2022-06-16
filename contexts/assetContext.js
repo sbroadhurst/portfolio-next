@@ -12,12 +12,22 @@ import Contact from '../public/assets/contact.jpeg'
 import Netflix from '../public/assets/netflix.png'
 import RedditClone from '../public/assets/redditClone.png'
 import Dashboard from '../public/assets/dashboard.png'
+import Wordle from '../public/assets/wordle.png'
 
 export const AssetContext = createContext({})
 
 const AssetProvider = ({ children }) => {
   const state = {
     games: [
+      {
+        name: 'Wordle Clone + ',
+        subtitle: 'Wordle Clone with More',
+        image: Wordle,
+        websiteUrl: 'https://wordle-nu-three.vercel.app/',
+        gitHubUrl: '',
+        description:
+          'A clone of the popular game Wordle with features to come. Made in React with Redux and Tailwind using a dictionary API.',
+      },
       {
         name: 'Musical Arrows Game',
         subtitle: 'Press the Arrows to the Music',
