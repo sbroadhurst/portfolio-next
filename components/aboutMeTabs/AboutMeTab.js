@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'next/link'
 import Me from '../../public/assets/me.jpg'
 import { AboutMeImage } from '../styledComponents'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 const AboutMeTab = () => {
   return (

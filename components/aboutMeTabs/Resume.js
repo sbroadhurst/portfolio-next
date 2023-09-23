@@ -2,7 +2,7 @@ import { ExpandMore } from '@mui/icons-material'
 import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material'
 import React from 'react'
 import ResumeImage from '../../public/assets/resumeImage.jpg'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 const Resume = () => {
   return (

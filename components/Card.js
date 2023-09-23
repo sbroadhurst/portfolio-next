@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography'
 import { GitHub, OpenInBrowser } from '@mui/icons-material'
 import styles from './Card.module.css'
 import { Link } from 'next/link'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 const CustomCard = (props) => {
   const { cardData } = props

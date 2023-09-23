@@ -4,7 +4,7 @@ import React from 'react'
 import { CardRow, IconTextBox } from '../components/styledComponents'
 import Title from '../components/Title'
 import MyAvatar from '../public/assets/myAvatar.jpg'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 const Contact = () => {
   return (

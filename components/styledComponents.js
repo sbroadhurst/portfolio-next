@@ -1,6 +1,6 @@
 import { BottomNavigationAction, Box, Card } from '@mui/material'
 import { styled } from '@mui/system'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 export const BottomNavAction = styled(BottomNavigationAction)(({ linkAddress }) => ({
   margin: ' 0 10px',
