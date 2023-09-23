@@ -57,6 +57,9 @@ const SkillsTab = () => {
         <DeviIcon className="devicon-intellij-plain">
           <Typography>&ensp;intelliJ: 1 Year</Typography>
         </DeviIcon>
+        <DeviIcon className="devicon-angularjs-plain">
+          <Typography>&ensp;AngularJS: 1 Year</Typography>
+        </DeviIcon>
 
         {/* minor expierence section starts */}
         <Break />
@@ -89,8 +92,8 @@ const SkillsTab = () => {
         <DeviIcon className="devicon-storybook-plain">
           <Typography>&ensp;Storybook</Typography>
         </DeviIcon>
-        <DeviIcon className="devicon-angularjs-plain">
-          <Typography>&ensp;AngularJS</Typography>
+        <DeviIcon className="devicon-threejs-original">
+          <Typography>&ensp;Threejs</Typography>
         </DeviIcon>
       </CardRow>
     </div>

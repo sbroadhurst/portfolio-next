@@ -13,6 +13,7 @@ import Netflix from '../public/assets/netflix.png'
 import RedditClone from '../public/assets/redditClone.png'
 import Dashboard from '../public/assets/dashboard.png'
 import Wordle from '../public/assets/wordle.png'
+import PlanetsThreejs from '../public/assets/planetsThreejs.png'
 
 export const AssetContext = createContext({})
 
@@ -57,6 +58,15 @@ const AssetProvider = ({ children }) => {
       },
     ],
     projects: [
+      {
+        name: 'Planets Threejs',
+        subtitle: 'Planets in 3D with quote and facts.',
+        image: PlanetsThreejs,
+        websiteUrl: 'https://planets-threejs-eight.vercel.app/planets/home/',
+        gitHubUrl: 'https://github.com/sbroadhurst/planets-threejs',
+        description:
+          'See the planets in 3D with a quote and interesting fact. Made in Angular using ngrx and threejs. Using the https://api.le-systeme-solaire.net/en/ API. ',
+      },
       {
         name: 'Dashboard',
         subtitle: 'View a Dashboard with Common Apps',
