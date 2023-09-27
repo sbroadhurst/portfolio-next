@@ -33,7 +33,7 @@ const AssetProvider = ({ children }) => {
         name: 'Musical Arrows Game',
         subtitle: 'Press the Arrows to the Music',
         image: ArrowsGame,
-        websiteUrl: 'http://arrows.sbroadhurst.net/',
+        websiteUrl: 'https://arrows-sbroadhurst.vercel.app/',
         gitHubUrl: 'https://github.com/sbroadhurst/arrows',
         description:
           'Play a game that tests your reflexs. Select a diffuculty at the start menu then be prepared to press the corresponding arrow keys in time. There is music playing the background, with different songs for each diffculty. Select the all diffculty to run through all the songs. Upload and view highscores via the leaderboard.',
@@ -42,7 +42,7 @@ const AssetProvider = ({ children }) => {
         name: 'Breakout',
         subtitle: 'Classic Breakout Game',
         image: Breakout,
-        websiteUrl: 'http://breakout.sbroadhurst.net/',
+        websiteUrl: 'https://breakout-sbroadhurst.vercel.app/',
         gitHubUrl: 'https://github.com/sbroadhurst/breakout',
         description:
           'Play a simple game of Breakout. This game features a ball, paddle, and bricks. If you hit the bottom edge of the screen you lose the game. Everytime you destroy a brick your score increases by one. There are sound effects when the ball hits the paddle and when the ball hits a brick. When you destroy all the bricks you win. Made in pure Javascript. Will be able to upload scores to Firebase and view the leaderboard when the game ends.',
@@ -51,7 +51,7 @@ const AssetProvider = ({ children }) => {
         name: 'Snake',
         subtitle: 'Classic Snake Game',
         image: Snake,
-        websiteUrl: 'http://snake.sbroadhurst.net/',
+        websiteUrl: 'https://snake-sbroadhurst.vercel.app/',
         gitHubUrl: 'https://github.com/sbroadhurst/snake',
         description:
           'Play a simple game of Snake. This game features a grid system where the goal is to get as long as possible without losing. If you touch your tail or hit the wall the game ends. Made in pure Javascript. Will be able to upload scores to Firebase and view the leaderboard when the game ends.',
@@ -62,7 +62,7 @@ const AssetProvider = ({ children }) => {
         name: 'Planets Threejs',
         subtitle: 'Planets in 3D with quote and facts.',
         image: PlanetsThreejs,
-        websiteUrl: 'https://planets-threejs-eight.vercel.app/planets/home/',
+        websiteUrl: 'https://planets-threejs-sbroadhurst.vercel.app/planets/home',
         gitHubUrl: 'https://github.com/sbroadhurst/planets-threejs',
         description:
           'See the planets in 3D with a quote and interesting fact. Made in Angular using ngrx and threejs. Using the https://api.le-systeme-solaire.net/en/ API. ',
