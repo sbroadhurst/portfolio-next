@@ -10,10 +10,10 @@ const SkillsTab = () => {
           <Chip label="Duration Last Updated 2022" />
         </Divider>
         <DeviIcon className="devicon-html5-plain">
-          <Typography>&ensp;HTML : 5 Years</Typography>
+          <Typography>&ensp;HTML : 7 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-javascript-plain">
-          <Typography>&ensp;JavaScript : 5 Years</Typography>
+          <Typography>&ensp;JavaScript : 7 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-react-original">
           <Typography>&ensp;React : 5 Years</Typography>
@@ -22,28 +22,28 @@ const SkillsTab = () => {
           <Typography>&ensp;Redux : 3 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-css3-plain">
-          <Typography>&ensp;CSS : 5 Years</Typography>
+          <Typography>&ensp;CSS : 7 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-materialui-plain">
           <Typography>&ensp;Material UI : 5 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-npm-original-wordmark">
-          <Typography>&ensp;NPM : 5 Years</Typography>
+          <Typography>&ensp;NPM : 7 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-angularjs-plain">
-          <Typography>&ensp;Angular : 2 Years</Typography>
+          <Typography>&ensp;Angular : 3 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-typescript-plain">
-          <Typography>&ensp;TypeScript: 4 Years</Typography>
+          <Typography>&ensp;TypeScript: 6 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-nodejs-plain">
-          <Typography>&ensp;Node : 4 Years</Typography>
+          <Typography>&ensp;Node : 6 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-mocha-plain">
           <Typography>&ensp;Mocha / Chai : 2 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-git-plain">
-          <Typography>&ensp;Git : 5 Years</Typography>
+          <Typography>&ensp;Git : 7 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-mongodb-plain">
           <Typography>&ensp;MongoDB : 3 Years</Typography>
@@ -52,13 +52,16 @@ const SkillsTab = () => {
           <Typography>&ensp;Slack: 2 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-vscode-plain">
-          <Typography>&ensp;VS Code: 5 Years</Typography>
+          <Typography>&ensp;VS Code: 7 Years</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-intellij-plain">
           <Typography>&ensp;intelliJ: 1 Year</Typography>
         </DeviIcon>
         <DeviIcon className="devicon-angularjs-plain">
           <Typography>&ensp;AngularJS: 1 Year</Typography>
+        </DeviIcon>
+        <DeviIcon className="devicon-primeng-plain">
+          <Typography>&ensp;PrimeNG: 2 Years</Typography>
         </DeviIcon>
 
         {/* minor expierence section starts */}
@@ -94,6 +97,9 @@ const SkillsTab = () => {
         </DeviIcon>
         <DeviIcon className="devicon-threejs-original">
           <Typography>&ensp;Threejs</Typography>
+        </DeviIcon>
+        <DeviIcon className="devicon-playwright-original">
+          <Typography>&ensp;Playwright</Typography>
         </DeviIcon>
       </CardRow>
     </div>
