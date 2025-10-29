@@ -98,7 +98,7 @@ const SkillsTab = () => {
         <DeviIcon className="devicon-threejs-original">
           <Typography>&ensp;Threejs</Typography>
         </DeviIcon>
-        <DeviIcon className="devicon-playwright-original">
+        <DeviIcon className="devicon-playwright-plain">
           <Typography>&ensp;Playwright</Typography>
         </DeviIcon>
       </CardRow>
